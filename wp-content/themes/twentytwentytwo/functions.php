@@ -9,7 +9,7 @@
  * @since Twenty Twenty-Two 1.0
  */
 
-
+require_once(get_theme_file_path( '/inc/customizer.php' ));
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
 	/**
